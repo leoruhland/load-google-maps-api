@@ -2,7 +2,7 @@ var CALLBACK_NAME = '__googleMapsApiOnLoadCallback'
 
 var OPTIONS_KEYS = ['client', 'key', 'language', 'region', 'v']
 
-const loadGoogleMapsApi = function(options) {
+export var loadGoogleMapsApi = function(options) {
   options = options || {}
 
   return new Promise(function(resolve, reject) {
